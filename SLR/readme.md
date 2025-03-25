@@ -45,9 +45,9 @@ where $\alpha$ is the **learning rate**.
 - `compute_loss(y_true, y_pred)`: Computes **Mean Squared Error**
 - `compute_gradients(x, y, slope, intercept)`: Computes gradients for $m$ and $c$
 - `predict(x, m, c)`: Predicts target values
+- `fit(x, y, alpha, epochs)`: Runs **Gradient Descent** algorithm
 - `plot_loss(loss_history)`: Plots training loss
 - `plot_regression_line(X, y, m, c)`: Plots best-fit line
-- `fit(x, y, alpha, epochs)`: Runs **Gradient Descent** algorithm
 
 ## Installation
 
@@ -64,8 +64,8 @@ python slr.py
 ## Example Output
 
 ```
-Final parameters: m = 2.45, c = 5.12
-Mean Squared Error: 3.05
+Final parameters: m = 2.53, c = 5.12
+Mean Squared Error: 3.84
 ```
 
 ## Visualization
