@@ -26,7 +26,7 @@ $$ \text{MSE} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2 $$
 
 Where:
 - $ y_i $ is the **actual target value**
-- $ \hat{y}_i $ is the **predicted value**
+- $\hat{y}$ is the **predicted value**
 - \( n \) is the **number of data points**
 
 ---
