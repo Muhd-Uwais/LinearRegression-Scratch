@@ -25,9 +25,9 @@ The Mean Squared Error is used as the **loss function**:
 $$ \text{MSE} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2 $$
 
 Where:
-- $ y_i $ is the **actual target value**
+- $y_i$ is the **actual target value**
 - $\hat{y}$ is the **predicted value**
-- \( n \) is the **number of data points**
+- $n$ is the **number of data points**
 
 ---
 ### 3️⃣ Gradient Descent
@@ -41,7 +41,7 @@ $$ \frac{\partial J}{\partial c} = \frac{-2}{n} \sum (y - \hat{y}) $$
 $$ w = w - \alpha \frac{\partial J}{\partial w} $$
 $$ c = c - \alpha \frac{\partial J}{\partial c} $$
 
-Where  $ \alpha $  is the **learning rate**.
+Where  $\alpha$  is the **learning rate**.
 
 ---
 ## 🛠 Code Structure
