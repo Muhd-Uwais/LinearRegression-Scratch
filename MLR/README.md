@@ -13,10 +13,10 @@ The equation for Multiple Linear Regression is:
 $$ y = Xw + c $$
 
 Where:
-- \( X \) is the **input feature matrix**
-- \( w \) is the **weight vector** (coefficients)
-- \( c \) is the **intercept** (bias term)
-- \( y \) is the **predicted output**
+- $X$ is the **input feature matrix**
+- $w$ is the **weight vector** (coefficients)
+- $c$ is the **intercept** (bias term)
+- $y$ is the **predicted output**
 
 ---
 ### 2️⃣ Mean Squared Error (MSE)
